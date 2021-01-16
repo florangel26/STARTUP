@@ -1,0 +1,83 @@
+.caracteristcas{
+   
+  width: 100%;
+
+&_statis{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+  
+}
+
+&__statis-img{
+  margin-left: 15%;
+
+}
+
+&_statis-text{
+  width: 30%;
+  margin-top: 20px;
+  
+
+}
+}
+  h2 {
+    text-align: center;
+    margin-bottom: 4.375rem;
+    font-family: $raleway;
+    font-weight: $bold;
+  }
+  h3{
+  font-family: $raleway;
+  font-weight: $bold;
+  }
+
+.a-bar {
+    fill: #EE9480;
+    animation-name: barras;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes barras {
+    0% {
+      fill: #EE9480;
+    }
+   50%{
+    fill: #fff;
+  
+   }
+    100% {
+      fill:#EE9480;
+    }
+  }
+  // 1
+  .b-bar {
+    fill: #2AB7CA;
+    animation-name: barra-b;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes barra-b {
+    0% {
+      fill: #2AB7CA;
+    }
+    50%{
+      fill: #fff;
+    
+     }
+   
+    100% {
+      fill:#2AB7CA;
+    }
+  }
+  .plane {
+    fill:#979797;
+    animation-name: linea;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  
+ 

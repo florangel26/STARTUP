@@ -1,0 +1,33 @@
+.menu{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    
+
+    &_logo{
+     display: flex;
+     margin-top: 5px;
+
+    }
+
+
+&_logo ul{
+    list-style: none;
+    display: flex;
+    margin: 7px;
+    font-family: $raleway;
+
+}
+}
+
+.li1{
+    margin-left: 30px;
+}
+
+.li2{
+    margin-left: 30px;
+}
+
+.bars{
+    color: white;
+}

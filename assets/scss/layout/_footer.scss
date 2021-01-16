@@ -1,0 +1,33 @@
+.footer{
+
+display: flex;
+justify-content: space-between;
+background-color:$raising-black;
+color:$planitum;
+width: 100%;
+height: 100px;
+font-family: $raleway;
+
+&_list{
+
+    margin-top: 33px;
+  
+}
+
+
+&_list-ul{
+display: flex;
+list-style: none;
+}
+
+&_list-ul li{
+ margin-left: 1.875em;
+}
+
+
+&_copy{
+    margin-right: 10em;
+    margin-top: 33px;
+
+}
+}

@@ -1,0 +1,276 @@
+.contenedor{
+    display: grid;
+    grid-template-rows: repeat(5, auto);
+}
+
+/* small devices */
+@media only screen and (max-width: 575.98px) {
+    // cambios nav
+    .menu_logo-escondido {
+        display: none !important;
+    
+    
+    }
+     .menu{
+         display: inline !important;
+     }
+    .menu_logo{
+        width: 100%;
+    }
+
+    .menu_botton{
+        display: none;
+    }
+
+    .bars{
+        color: black !important ;
+        margin-left: 60% !important;
+        font-size: 35px;
+    }
+
+    .img{
+        margin-left: 7%;
+    }
+// cambios header
+
+.principal{
+    width: 100% ;
+    height: 600px !important;
+    background-size: cover;
+}
+
+.principal_contenido{
+        width: 40% !important;
+        margin-left: 4% !important;
+    }
+
+
+h1{
+    font-size: 30px !important;
+}
+p{
+    font-size: 12px !important;
+}
+
+// cambios caracteristicas
+.caracteristicas{
+
+    margin-top: 60px;
+}
+.caracteristcas_statis{
+
+    display: block !important ;
+    margin-left: 20% !important;
+}
+
+.caracteristcas_statis-text{
+    width: 80% !important;
+    margin-top: 80px !important;
+}
+
+// cambios precios
+
+.Precios{
+    height: 1500px !important;
+}
+.container{
+    margin-top:200px !important;
+    padding-left: 15% !important;
+}
+.row{
+    display: inline !important;
+}
+
+.price{
+    margin-right: 20% !important;
+}
+.card-2{
+    margin-top: 25px !important;
+}
+.list-2{
+    margin-bottom: -29px;
+}
+// cambios footer
+.footer{
+    display: inline-block;
+    height: 125px;
+}
+.footer_list {
+    margin-left: 10%;
+}
+
+.footer_copy{
+    margin-left: 35%;
+}
+}
+
+// Smalpadding-left:
+@media (min-width: 576px) and (max-width: 767.98px){
+ // cambios nav
+ .menu_logo-escondido {
+    display: none !important;
+
+
+}
+ .menu{
+     display: inline !important;
+ }
+.menu_logo{
+    width: 100%;
+}
+
+.menu_botton{
+    display: none;
+}
+
+.bars{
+    color: black !important ;
+    margin-left: 60% !important;
+    font-size: 35px;
+}
+
+.img{
+    margin-left: 10%;
+}
+
+// cambios header
+.principal_contenido{
+    width: 35% !important;
+    margin-left: 4% !important;
+}
+h1{
+font-size: 30px !important;
+}
+
+p{
+    font-size: 15px !important;
+}
+
+
+// cambios caracteristicas
+
+.caracteristcas_statis{
+
+    display: block !important ;
+    margin-left: 20% !important;
+}
+
+.caracteristcas_statis-text{
+    width: 80% !important;
+    margin-top: 80px !important;
+}
+
+// cambios precios
+
+.Precios{
+    height: 1500px !important;
+}
+.container{
+    margin-top:200px !important;
+    padding-left: 15% !important;
+}
+.row{
+    display: inline !important;
+}
+
+.price{
+    margin-right: 20% !important;
+}
+.card-2{
+    margin-top: 25px !important;
+}
+.list-2{
+    margin-bottom: -29px;
+}
+// cambios footer
+.footer{
+    display: inline-block;
+    height: 125px;
+}
+.footer_list {
+    margin-left: 18%;
+}
+
+.footer_copy{
+    margin-left: 35%;
+}
+}
+
+
+ // // Medium devices (tablets, 768px and up)
+ @media (min-width: 768px) and (max-width: 991.98px) {
+
+     // cambios nav
+ .menu_logo-escondido {
+    display: none !important;
+
+
+}
+ .menu{
+     display: inline !important;
+ }
+.menu_logo{
+    width: 100%;
+}
+
+.menu_botton{
+    display: none;
+}
+
+.bars{
+    color: black !important ;
+    margin-left: 65% !important;
+    font-size: 35px;
+}
+
+.img{
+    margin-left: 10%;
+}
+
+// cambios header
+.principal_contenido{
+    width: 35% !important;
+    margin-left: 4% !important;
+}
+h1{
+font-size: 35px !important;
+}
+
+p{
+    font-size: 18px !important;
+}
+// cambios precios
+
+.Precios{
+    height: 1500px !important;
+}
+.container{
+    margin-top: 200px !important;
+    padding-left: 15% !important;
+    max-width: 75%;
+}
+.row{
+    display: inline !important;
+}
+
+.price{
+    margin-right: 37% !important;
+}
+.card-2{
+    margin-top: 25px !important;
+}
+
+h3{
+    margin-bottom: 35px;
+
+}
+.list-2{
+    margin-bottom: -30px !important;
+}
+
+ }
+
+ @media (min-width: 992px) and (max-width: 1200px){
+
+
+ }
